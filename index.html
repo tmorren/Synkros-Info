@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tyler S. Morren | Synkros</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="img/favicon.ico" sizes="16x16" type="image/ico">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-flex.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-grid.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-reboot.min.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div class="jumbotron" id="headerMain">
+	  	<div class="container">
+	  		<img id="headerLogo" src="img/synkros-logo.png"><br><br>
+			<img id="headerUI" src="img/SynkrosScreenHalf.png">
+		</div>
+	</div>
+
+	<div class="row banner" id="firstBanner">
+		<div class="container">
+			<h3>A SaaS Application to record timesheets, time off, and expenses</h3>
+		</div>
+	</div>
+
+	<!-- The Problem Section -->
+	<section class="container" id="sectionTheProblem">
+		<div class="row">
+			<div class="col-lg-12" id="textTheProblem">
+				<div>
+					<h2>The Idea</h2>
+
+					<p>We were approached by a client who were unhappy with their current system provider. They wanted us to create a new Timesheet and Time Off system for them. Their current system did not allow for them to track expenses. This was a module that our company felt was a natural fit to add. In addition, we wanted to make the system so it could be used by other companies should the oppurtunity arise.</p>
+
+					<p>Being the only Web Developer at the firm, I was in charge of the project. <strong>I hand coded the application using HTML, CSS, JS, PHP, and MySQL</strong>. A lot of the technology and techniques were was new to me, but I learned a lot along the way, and delivered a product that the customer was overjoyed with.</p>
+				</div>
+			</div>
+			<div class="col-lg-3">
+			</div>
+		</div>
+	</section>
+
+	<div class="row banner" id="worksBanner">
+		<div class="container">
+			<h3>Challenges</h3>
+		</div>
+	</div>
+
+
+	<section class="container" id="sectionChallenges">
+		<div class="row">
+			<div class="col-lg-12" id="textChallenges">
+				<div>
+					<h2>Server Setup</h2>
+					<p>The first challenge came with the server setup. Unlike most websites I had worked on in the past, Synkros was not suited for shared hosting. I need to have full control over the server so that I could easily configure it to fit my needs. The biggest need for this was to configure the <strong>virtual host file</strong>. The idea was that since this was intended to be a SaaS application, each client would have their own subdomain. To accomplish this, I needed to configure <strong>Wildcard hosts</strong>.</p><br>
+
+					<h2>Structure and Administration</h2>
+					<p>After a lot of research, I found the best way to develop the application was to have <strong>one codebase, and a database for each client</strong>. This would allow for easier updates to the code, while also keeping the data seperate for each client.</p>
+					<p>To create new clients, I developed an admin portal. The admin portal allowed me to easily create a new client by filling out a form. Once the form was filled out, a database and database user were created for the client. <strong>By creating a database user for the clients with only the necessary privileges, the system was more secure.</strong></p><br>
+
+					<h2>Database Design and MySQL</h2>
+					<p>Before this project, I only had a little experience with MySQL. To make Synkros as dynamic as possible, the code relied heavily on the database. The database was <strong>designed to be flexible</strong>, to allow Synkros to be as dynamic as possible. By allowing different settings to be stored in the database, it would allow different clients to use the system differently.</p>
+					<p>At the start of the project, MySQL was very new to me. I learned a lot of SQL along the way. The biggest challenge was allowing <strong>MySQL events</strong> to be set and altered on a per client basis. It was a great learning experience and really strengthened my knowledge of MySQL.</p>
+
+					<h2>Development</h2>
+					<p>The development process included both front-end and back-end work. The UI was created with HTML, CSS, JavaScript, and jQuery. To save time on development, we purchased a template, which I then altered to be more altered to use PHP. <strong>Cross browser compatability</strong> was something I needed to stay aware of as well. I fixed multiple issues where Synkros didn't work properly across browsers.</p>
+					<p>For <strong>version control</strong>, I utilized GitHub. Synkros went through extensize testing before deploying to clients. I made sure that any possible hole in the program was fixed before deploying. However, if I client ran into an issue, version control easily allowed us to rollback to a stable build</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<div class="row banner" id="worksBanner">
+		<div class="container">
+			<h3>Conclusion</h3>
+		</div>
+	</div>
+	<section class="container" id="sectionChallenges">
+		<div class="row">
+				<div class="col-lg-12" id="textChallenges">
+					<div>
+						<p>Synkros was a huge learning process for me. It allowed me to develop my PHP and MySQL knowledge, as well as get a further understanding of the front-end aspect. Creating a client facing application gave me an appreciation of how much work goes into an application. It showed me the importance of creating an <strong>intuitive application</strong> and how important extensive QA is. Creating a client facing application from start to finish is something I am extremely proud of. I learned a lot during the development process while meeting deadlinesThis project really pushed me to become <strong>a better developer</strong>. This experience will allow me to create even better applications in the future.</p>
+					</div>
+				</div>
+			</div>
+	</section>
+
+	<div class="row banner" id="getStartedBanner">
+		<div class="container">
+			<a id="seeMore" href="https://www.tylermorren.com">See More Projects</a>
+		</div>
+	</div>
+
+	<!-- Footer -->
+	<footer class="row">
+		<div class="container">
+			<a href="https://www.tylermorren.com" id="footerLogo"><img src="img/tsm_white.png"></a>
+			<a href="https://github.com/tmorren"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>&nbsp;
+			<a href="https://www.instagram.com/tmorren9/"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>&nbsp;
+			<a href="https://www.linkedin.com/in/tyler-morren"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
+		</div>
+	</footer>
+
+	<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/app.js"></script>
+</body>
+</html>

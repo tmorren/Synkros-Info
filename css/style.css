@@ -1,0 +1,163 @@
+body{
+	background: #f7f7f7;
+	font-size: 17px;
+}
+
+h1, h2, h3, h4, h5, h6{
+	margin-top: 10px;/* So there is the same margin on top and bottom */
+}
+
+.row{
+	margin: 0;
+}
+
+/**********************
+	General
+***********************/
+.step-number{
+	color: white;
+}
+
+h2{
+	display: block;
+    max-width: 700px;
+    margin: 0 auto 0 auto;
+}
+
+#seeMore{
+	display: block;
+	border: 3px solid white;
+	font-weight: 600;
+	text-transform: uppercase;
+	margin: 0 auto;
+	max-width: 300px;
+	height: 3em;
+	line-height: 2.5em;
+	color: white;
+}
+
+#seeMore:hover{
+	background: rgba(255, 255, 255, .3);
+	text-decoration: none;
+}
+
+/******************* 
+	Header 
+********************/
+
+#headerMain{
+	background: #505050;
+	text-align: center;
+	padding-bottom: 0;
+	margin-bottom: 0;
+	border-radius: 0;
+}
+
+#headerUI{
+	display: none;
+	box-shadow: rgba(0,0,0,0.20) 0 -5px 10px;
+}
+
+#headerMain img{
+	max-width: 100%;
+}
+
+#headerText{
+	font-size: 1.1em;
+	font-weight: 500;
+	max-width: 1000px;
+	margin: 1em auto 1em auto;
+	color: #f1f1f1;
+}
+
+#demoButton{
+	background: #4E73AB;
+	border: none;
+}
+
+/***************************** 
+	Banner Section 
+****************************/
+.banner{
+	background: #00B8CE;
+	color: #EFEFEF;
+	padding-top: 2em;
+	padding-bottom: 2em;
+	text-align: center;
+}
+
+#worksBanner{
+	background: #2D333B;
+}
+
+/******************* 
+	The Problem
+********************/
+
+#sectionTheProblem{
+	padding: 2em 15px 2em 15px;
+}
+
+#sectionTheProblem h3{
+	text-align: center;
+}
+
+#sectionTheProblem p{
+	display: block;
+    max-width: 700px;
+    margin: 1em auto 1em auto;
+}
+
+#serviceLogos{
+	text-align: center;
+}
+
+#serviceLogos img{
+	max-width: 175px;
+	padding: 1em 1em;
+}
+
+
+/*******************************
+	 Challeges Section 
+*******************************/
+
+#sectionChallenges{
+	padding: 2em 15px 2em 15px;
+}
+
+#sectionChallenges p{
+	display: block;
+    max-width: 700px;
+    margin: 1em auto 1em auto;
+}
+
+#sectionChallenges img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 100%;
+}
+
+/******************* 
+	Footer 
+*******************/
+footer{
+	background: #2A2B28;
+	color: white;
+	text-align: center;
+	padding: 2em 0;
+}
+
+#footerLogo{
+	display: block;
+	margin: 0 auto 1em 0;
+}
+
+footer i{
+	color: white;
+}
+
+footer img{
+	width: 100px;
+}
